@@ -30,6 +30,7 @@ public class TareaSemana9 {
             venta_promedio_sucursal[i] = venta_total_sucursal[i] / 3;
             ventas_Totales_Sucursales += venta_total_sucursal[i];
         }
+        
         System.out.println("Reporte\n");
         for (int i = 0; i <= 0; i++) {
             System.out.printf("\t\t%s\t\t%s\t\t%s\tTotal\t\tPromedio\n\n", meses[i], meses[i + 1], meses[i + 2]);
